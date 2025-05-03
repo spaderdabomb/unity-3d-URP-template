@@ -1,0 +1,48 @@
+.main-menu-button {
+    width: 450px;
+    height: 120px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    -unity-font-style: bold;
+    font-size: 40px;
+    color: rgb(230, 230, 230);
+    border-left-color: rgb(230, 230, 230);
+    border-right-color: rgb(230, 230, 230);
+    border-top-color: rgb(230, 230, 230);
+    border-bottom-color: rgb(230, 230, 230);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-shadow: 2px 2px 0 rgb(0, 0, 0);
+}
+
+.settings-button {
+    background-color: rgb(229, 75, 70);
+}
+
+.settings-button:hover {
+    background-color: rgb(151, 46, 43);
+}
+
+.achievements-button {
+    background-color: rgb(70, 88, 220);
+}
+
+.achievements-button:hover {
+    background-color: rgb(50, 60, 138);
+}
+
+.play-button {
+    background-color: rgb(63, 175, 64);
+}
+
+.play-button:hover {
+    background-color: rgb(43, 105, 44);
+}

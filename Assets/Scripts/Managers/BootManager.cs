@@ -11,11 +11,13 @@ public class BootManager : MonoBehaviour
     [SerializeField] private GameObject audioManager;
     [SerializeField] private GameObject inputManager;
     [SerializeField] private GameObject debugManager;
+    [SerializeField] private GameObject persistentDataManager;
 
     private GameObject spawnedDataManager;
     private GameObject spawnedInputManager;
     private GameObject spawnedDebugManager;
     private GameObject spawnedaudioManager;
+    private GameObject spawnedPersistentDataManager;
 
     private void Awake()
     {
@@ -37,5 +39,6 @@ public class BootManager : MonoBehaviour
         spawnedaudioManager = Instantiate(audioManager);
         spawnedInputManager = Instantiate(inputManager);
         spawnedDebugManager = Instantiate(debugManager);
+        spawnedPersistentDataManager = Instantiate(persistentDataManager);
     }
 }
